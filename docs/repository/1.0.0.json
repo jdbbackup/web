@@ -1,0 +1,13 @@
+{
+	"repository": {
+		"destinationManagers":{
+			"sftp":"https://repo1.maven.org/maven2/com/fathzer/jdbbackup-sftp/1.0.0/jdbbackup-sftp-1.0.0.jar",
+			"s3":"https://repo1.maven.org/maven2/com/fathzer/jdbbackup-s3/1.0.0/jdbbackup-s3-1.0.0.jar",
+			"gcs":"https://repo1.maven.org/maven2/com/fathzer/jdbbackup-gcs/jdbbackup-gcs-1.0.0.jar",
+			"dropbox":"https://repo1.maven.org/maven2/com/fathzer/jdbbackup-dropbox/jdbbackup-dropbox-1.0.0.jar"
+		},
+		"sourceManagers":{
+			"fake":"https://repo1.maven.org/maven2/com/fathzer/jdbbackup-fakesource/1.0.0/jdbbackup-fakesource-1.0.0.jar"
+		}
+	}
+}
